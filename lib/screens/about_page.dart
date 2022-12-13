@@ -90,12 +90,14 @@ class AboutPage extends StatelessWidget {
             RichText(
                 text: TextSpan(
                     text:
-                        '''Give your valuable feedbacks and suggestion on this email:''',
+                        '''Give your valuable feedbacks and suggestion on this email:  ''',
                     style: TextStyle(color: Colors.black, fontSize: 15),
                     children: [
                       TextSpan(
                           text: 'synergypnrrvv@gmail.com',
-                          style: TextStyle(color: Colors.blue),
+                          style: TextStyle(
+                              color: Colors.blue,
+                              decoration: TextDecoration.underline),
                           recognizer: TapGestureRecognizer()
                             ..onTap = () {
                               // ignore: deprecated_member_use
