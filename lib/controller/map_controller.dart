@@ -1,5 +1,7 @@
 // import 'dart:ffi';
 
+// ignore_for_file: unused_local_variable
+
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
